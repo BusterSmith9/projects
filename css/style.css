@@ -1,0 +1,540 @@
+ 
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body
+{
+	
+    background:url(../assets/white.jpg);
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif, Arial;
+    font-size: 20px; 	
+    line-height: 35px;
+    font-weight: 400;	
+    color: #191919;
+    letter-spacing: -1px;
+}
+
+
+
+
+img.logo{
+	padding: 30px 100px;
+	
+
+}
+nav{
+	background:#2f3033 ;
+	height: 150px;
+	width:100% ;
+}
+nav ul{
+  float: right;
+  margin:60px 80px;}
+nav ul li{
+  display: inline-block;
+  line-height: 0px;
+  margin-top: 40;
+  
+}
+nav ul li a{
+  color: white;
+  font-size: 30px;
+  padding: 20px 10px 20px 10px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+nav a:active{
+	color: #2f3033;
+
+
+}
+nav a:hover{
+  background: #db4535;
+  transition: 1s;
+}
+
+
+nav .current{
+	color:  #db4535;
+
+}
+nav .current:hover{
+	color:  #2f3033;
+
+}
+.clearfix:: after{
+	content: '';
+	display: block;
+	clear: both;		
+}
+
+h1.nepali{
+	font-size: 200px;
+	padding-top: 125px ;
+	text-align: center;
+	color: #2f3033;
+}
+.footer-main-div{
+	width:100%;
+	height :auto;
+	margin: 100px auto 0px;
+		
+	padding:20px 0px;
+}
+.foot-icon{
+	width: 100%;
+	height: auto;
+	margin:auto;
+}
+.foot-icon ul{
+	margin:0px;
+	padding:0px;
+	text-align: center;
+}
+.foot-icon ul li{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	margin:0px 20px;	
+	border-radius: 100%;
+	background:#2f3033;
+
+	}
+	.foot-icon ul li a{
+		color:#fff; 
+		font-size:30px;
+
+	}
+	.foot-icon ul li a:hover{
+		color:#db4535;
+	}
+	.foot-icon ul li a i{
+		line-height: 60px;
+	}
+	/* blog content*/
+	.blog{
+
+		width:80%;
+		margin:30px auto 30px;
+    height: 2400px;
+    box-shadow: 0px 0px 10px 5px #ccc;
+		
+
+
+	}
+	.blog .slider{
+		width: 25%;
+		float: left;
+    height:800px;
+    margin-left: 20px;
+
+		
+		
+
+
+	}
+	.blog .right_blog{
+	width: 70%;
+	float: left;
+	margin: 20px auto;
+  margin-left: 30px; 
+	
+	
+
+	}
+  .box{
+    position: absolute;
+    width:300px;
+    padding:30px;
+    background:#fff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    float: left;
+
+  }
+  .circle1{
+    width: 270px;
+    height: 270px;
+    background:url(../assets/circle.png); 
+    border-radius: 50%;
+    float:left;
+    shape-outside: circle();
+    margin:30px 20px 50px 10px;
+    
+
+  }
+  .circle2{
+    width: 270px;
+    height: 270px;
+    background:url(../assets/positive.jpg); 
+    border-radius: 50%;
+    float:left;
+    shape-outside: circle();
+    margin:30px 20px 50px 10px;
+  
+}
+.circle3{
+    width: 270px;
+    height: 270px;
+    background:url(../assets/dark.png); 
+    border-radius: 50%;
+    float:left;
+    shape-outside: circle();
+    margin:30px 20px 50px 10px;
+    
+
+  }
+.container{
+	position: relative;
+	width: 100%;
+	height: 500px;
+	
+	margin:30px auto;
+}
+.blog .author{
+  width: 95%;
+  height:150px;
+  margin:5px 5px 5px 10px;
+  
+ 
+}
+.container .box{
+	position: relative;
+	width: 19%;
+	height: 470px;
+	float: left;
+	margin:55px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 5px;
+	box-shadow: 0px 0px 7px 5px #ccc;
+  background: none;
+	
+}
+.container .box .icon
+{
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height:100%;
+	background:#2f3033;
+	transition: 0.5s;
+	z-index: 1;
+
+
+}
+.container .box:hover .icon{
+	top:20px;
+	left: 39%;
+	width: 80px;
+	height: 80px;
+	border-radius: 30%;
+
+}
+
+.container .box .icon .fa{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	font-size: 80px;
+	color:#fff; 
+	text-align: center;
+}
+.container .box .icon .fa:hover{
+	color:#db4535;
+
+}
+.container .box:hover .icon .fa{
+	font-size: 40px;
+
+}
+.container .box .content{
+margin-top: 50px;
+top: 100px;
+height: 100%;
+text-align: center;
+padding:20px;
+box-sizing: border-box;
+transition: 2.3s;
+opacity: 0;
+
+}
+.container .box:hover .content{
+	top:100px;
+	opacity: 1;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.semi-bold {
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.resume {
+  width: 1200px;
+  height: auto;
+  display: flex;
+  margin: 50px auto;
+}
+
+.resume .resume_left {
+  width: 400px;
+  background: #2f3033;
+  box-shadow: 0px 0px 10px 5px #ccc;
+}
+
+.resume .resume_left .resume_profile {
+  width: 100%;
+  height: 600px;
+}
+
+.resume .resume_left .resume_profile img {
+  width: 100%;
+  height: 100%;
+}
+
+.resume .resume_left .resume_content {
+  padding: 0 25px;
+}
+
+.resume .title {
+  margin-bottom: 20px;
+}
+
+.resume .resume_left .bold {
+  color: #fff;
+}
+
+.resume .resume_left .regular {
+  color: #fff 	;
+}
+
+.resume .resume_item {
+  padding: 25px 0;
+  border-bottom: 2px #2f3033
+}
+
+.resume .resume_left .resume_item:last-child,
+.resume .resume_right .resume_item:last-child {
+  border-bottom: 0px;
+}
+
+.resume .resume_left ul li {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.resume .resume_left ul li:last-child {
+  margin-bottom: 0;
+}
+
+.resume .resume_left ul li .icon {
+  width: 35px;
+  height: 35px;
+  background: #fff;
+  color:#2f3033;
+  border-radius: 50%;
+  margin-right: 15px;
+  font-size: 16px;
+  position: relative;
+}
+
+.resume .icon i,
+.resume .resume_right .resume_hobby ul li i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.resume .resume_left ul li .data {
+  color: #fff;
+}
+
+.resume .resume_left .resume_skills ul li {
+  display: flex;
+  margin-bottom: 10px;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.resume .resume_left .resume_skills ul li .skill_name {
+  width: 25%;
+}
+
+.resume .resume_left .resume_skills ul li .skill_progress {
+  width: 60%;
+  margin: 0 5px;
+  height: 5px;
+  background: #000;
+  position: relative;
+}
+
+.resume .resume_left .resume_skills ul li .skill_per {
+  width: 15%;
+}
+
+.resume .resume_left .resume_skills ul li .skill_progress span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #fff;
+}
+
+.resume .resume_left .resume_social .semi-bold {
+  color: #fff;
+  margin-bottom: 3px;
+}
+
+.resume .resume_right {
+  width: 800px;
+  
+  padding: 25px;
+
+}
+
+.resume .resume_right .bold {
+  color: #000;
+}
+
+.resume .resume_right .resume_education ul {
+  padding-left: 40px;
+  overflow: hidden;
+}
+
+.resume .resume_right ul li {
+  position: relative;
+}
+
+.resume .resume_right ul li .date {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.resume .resume_right ul li .info {
+  margin-bottom: 20px;
+}
+
+.resume .resume_right ul li:last-child .info {
+  margin-bottom: 0;
+}
+
+.resume .resume_right .resume_work ul li:before,
+.resume .resume_right .resume_education ul li:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -25px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.resume .resume_right .resume_work ul li:after,
+.resume .resume_right .resume_education ul li:after {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: -21px;
+  width: 2px;
+  height: 115px;
+  background:#2f3033;
+}
+
+
+
+.resume .resume_right .resume_hobby ul li {
+	font-size: 50px;
+  width: 100px;
+  padding-top: 30px;
+  margin-top: 50px;
+  }
+  .wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 500px;
+  width: 100%;
+  margin: 130px auto;
+
+  padding: 40px;
+  border-radius: 5px;
+  font-family:  'Josefin Sans', sans-serif;
+  box-shadow: 0px 0px 10px 5px #ccc;
+
+}
+
+
+.wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #332902;
+}
+
+.wrapper .input_field{
+  margin-bottom: 40px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 30px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #2f3033;  
+  color: #fff; 
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  font-family:  'Josefin Sans', sans-serif;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
